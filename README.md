@@ -11,7 +11,7 @@ npm install
 ## buildar scss
 
 ```sh
-npm run "compile:sass"
+npm run compile:sass
 ```
 
 ## Executar
