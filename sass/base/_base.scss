@@ -1,4 +1,6 @@
 @use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+
 
 *,
 *::after,
@@ -30,4 +32,9 @@ body {
   @include respond(tab-land) {
     padding: 0;
   }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
 }
