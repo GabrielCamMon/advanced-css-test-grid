@@ -1,0 +1,28 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Diretórios de build
+dist/
+build/
+
+# Arquivos do Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs e caches
+logs/
+*.log
+.pnp/
+.pnp.js
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
